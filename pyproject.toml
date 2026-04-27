@@ -1,0 +1,33 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "defensive-block"
+version         = "0.1.0"
+description     = "Frame-level defensive block detection from football tracking data"
+readme          = "README.md"
+requires-python = ">=3.9"
+license         = { text = "MIT" }
+
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    "mplsoccer>=1.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "jupyter>=1.0",
+    "nbconvert>=7.0",
+]
+
+[project.urls]
+Repository = "https://github.com/alexllinas/Defensive-Block-Classifier"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["defensive_block*"]
