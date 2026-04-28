@@ -76,8 +76,11 @@ fig, ax = plot_frame(
 )
 plt.show()
 ```
+<img width="1632" height="1187" alt="frame_high_compact" src="https://github.com/user-attachments/assets/977cfc9a-4fa3-4b48-ba6b-b41e7ee80b4f" />
 
 See [examples/metrica_demo.ipynb](examples/metrica_demo.ipynb) for a full walkthrough.
+
+<img width="1280" height="788" alt="sequence_04_optimized" src="https://github.com/user-attachments/assets/94b5cbb4-aacc-4d3d-96b7-e0de01ccad1d" />
 
 ---
 
