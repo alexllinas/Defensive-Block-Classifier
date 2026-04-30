@@ -161,6 +161,12 @@ class MyFormatLoader(BaseLoader):
 
 ---
 
+## References
+
+- Football Innovation Hub — [Measuring Defensive Blocks with Football Tracking Data](https://footballinnovationhub.com/measuring-defensive-blocks-football-tracking-data/) — the article that inspired this project.
+
+---
+
 ## License
 
 MIT
